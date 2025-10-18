@@ -7,6 +7,7 @@ const ai = new GoogleGenAI({
 
 export async function POST(req) {
   try {
+    
     const formData = await req.formData();
     const message = formData.get("message") || "";
     const file = formData.get("file");
