@@ -5,10 +5,9 @@ const ResponseContext = createContext();
 
 export const ResponseProvider = ({ children }) => {
   const [responses, setResponses] = useState([]); 
-  // Each item: { message: "...", reconstructedText: "..." }
-
+  const [loading, setLoading] = useState(false);
   return (
-    <ResponseContext.Provider value={{ responses, setResponses }}>
+    <ResponseContext.Provider value={{ responses, setResponses,loading,setLoading }}>
       {children}
     </ResponseContext.Provider>
   );
