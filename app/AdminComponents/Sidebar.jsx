@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import { FiMenu, FiX } from "react-icons/fi"; // hamburger + close icon
+import { Menu, X } from 'lucide-react'
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,14 +26,14 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="md:hidden flex items-center p-3">
-        <FiMenu size={28} className="text-white cursor-pointer" onClick={() => setIsOpen(true)}/>
+        <Menu size={28} className="text-white cursor-pointer" onClick={() => setIsOpen(true)}/>
       </div>
       <div
         className={`fixed top-0 left-0 h-full w-64 bg-[#1a1a1a]/95 border-r border-[#9b6b35]/70 shadow-lg transform transition-transform duration-300 z-50
           ${isOpen ? "translate-x-0" : "-translate-x-full"}
         `}>
         <div className="flex justify-end p-4">
-          <FiX size={28} className="text-white cursor-pointer" onClick={() => setIsOpen(false)}/>
+          <X size={28} className="text-white cursor-pointer" onClick={() => setIsOpen(false)}/>
         </div>
         <div className="flex flex-col gap-6 px-6 text-white mt-4">
           <Link href="/">
