@@ -37,7 +37,7 @@ const Page = () => {
             ) : responses.length === 0 ? (
               <>
               <p className="text-[#bfa887]  text-md mt-4">No inputs yet. Try sending one!</p>
-              <p className="text-[#bfa887]  text-md mt-4">Wait For 5 to 10 seconds to get the Gemini response</p>
+              <p className="text-[#bfa887]  text-md mt-4">Wait For 5 to 10 seconds to get the Gemini response after clicking the send button</p>
               </>
               
             ) : (
@@ -61,3 +61,4 @@ const Page = () => {
 };
 
 export default Page;
+
