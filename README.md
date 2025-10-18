@@ -54,3 +54,27 @@ GEMINI_API_KEY=your_google_gemini_api_key_here
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
 ### 4.Run on local server
 npm run dev to run the website in ur localhost
+
+
+### 5.Layer	Technologies Used
+Frontend	Next.js 15, React, Tailwind CSS
+Icons/UI	Lucide React Icons
+Backend API Routes	Next.js App Router /api/reconstruct
+AI Model	Google Gemini API
+Deployment	Vercel (Recommended)
+### 6.🧠 Key Features
+Chat-based AI reconstruction interface.
+File upload and text reconstruction support.
+Mobile-responsive sidebar and footer design.
+Smooth UI animations and gradient theming.  
+Secure environment key handling using .env.local.
+
+### 7.TroubleShooting
+Sidebar overlapping or layout shift: Confirm you have Tailwind and responsive utilities enabled.
+Build errors on Vercel: Check that your .env.local variables are added in Vercel → Project Settings → Environment Variables.
+API not responding: Verify your Gemini API key is valid and correctly referenced as GEMINI_API_KEY.
+
+### 8.📄 License
+This project is for educational and research purposes only.
+© 2025 Project Chronos. All Rights Reserved.
+
