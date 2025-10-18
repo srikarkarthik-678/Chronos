@@ -43,13 +43,14 @@ Follow these steps to run Project Chronos locally on your machine.
 ```bash
 git clone https://github.com/srikarkarthik-678/Chronos.git
 cd Chronos
-2. 📦 Install Dependencies
+### 2. 📦 Install Dependencies
 Make sure you have Node.js (v18 or higher) and npm installed.
 Then run:
 npm install
-3.🔑 Set Up Environment Variables
+### 3.🔑 Set Up Environment Variables
 Create a .env.local file in the root directory of the project.
 touch .env.local
 GEMINI_API_KEY=your_google_gemini_api_key_here
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
+### 4.Run on local server
 npm run dev to run the website in ur localhost
