@@ -40,7 +40,7 @@ const Footer = () => {
   return (
     <div className="footerdetails text-white">
       <div className="footercontent">
-        <div className="footer backdrop-blur-md bg-black/40 border-t border-[#9b6b35]/70 px-6 py-3 flex items-center justify-between">
+        <div className="footer backdrop-blur-md bg-black/40 border-t border-[#9b6b35]/70 px-6 py-3 flex items-center justify-between max-md:px-2 max-sm:border-none">
           <input type="file" id="fileInput" className="hidden" onChange={fileAdded}
           />
           <label htmlFor="fileInput" className="flex items-center gap-2 cursor-pointer text-[#f5e6c8] hover:text-[#ffdf9e] transition-all duration-300 font-Ciz mr-5">
