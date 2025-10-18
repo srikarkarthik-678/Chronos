@@ -40,10 +40,10 @@ Users can:
 Follow these steps to run Project Chronos locally on your machine.
 
 ### 1. 🧩 Clone the Repository
-```bash
+bash
 git clone https://github.com/srikarkarthik-678/Chronos.git
 cd Chronos
-### 2. 📦 Install Dependencies
+## 2. 📦 Install Dependencies
 Make sure you have Node.js (v18 or higher) and npm installed.
 Then run:
 npm install
