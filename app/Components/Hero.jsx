@@ -7,7 +7,7 @@ const Hero = () => {
                 <div className="herosection">
                     <div className="herodetails flex justify-center items-center h-[100vh]">
                         <div className='flex flex-col justify-center items-center gap-8'>
-                            <div className="hackathon text-6xl bg-gradient-to-r from-red-600 via-orange-500 to-yellow-400 bg-clip-text text-transparent">
+                            <div className="hackathon text-6xl bg-gradient-to-r from-red-600 via-orange-500 to-yellow-400 bg-clip-text text-transparent max-md:text-3xl">
                                 Welcome To Chronos
                             </div>
                             <div>
